@@ -7,7 +7,7 @@ public class CameraMove : MonoBehaviour
     private bool _isDragging;
 
     private readonly float _minX = 3.06f;
-    private readonly float _maxX = 32.86f;
+    private readonly float _maxX = 31.7f;
 
     private void Update()
     {
@@ -31,3 +31,4 @@ public class CameraMove : MonoBehaviour
         }
     }
 }
+//Скролл реализован за счет перемещения позиции камеры по оси X, перемещение ограничено координатами X начала и конца фона
